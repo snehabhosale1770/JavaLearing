@@ -1,4 +1,4 @@
-public class javaVariables {
+public class P3Variables {
     public static void main(String[] args) {
         int yourNumber;
         yourNumber=87;
