@@ -12,9 +12,9 @@ public class P18GreaterOfThreeNum {
         System.out.print("Enter Third Number : ");
         int third = input.nextInt();
 
-        if(first > second && first > third){
+        if(first >= second && first >= third){
             System.out.println(+ first +" is Greater Number");
-        } else if (second > first && second > third) {
+        } else if (second >= first && second >= third) {
             System.out.println(+ second + " is Greater Number");
         }
         else {
