@@ -5,8 +5,8 @@ public class L5Function {
         System.out.println("Method Calling Complete");
 
         rightHalfPattern();
-        reverseRightHalfPattern();
-        lightHalfPattern();
+//        reverseRightHalfPattern();
+//        lightHalfPattern();
     }
 
     public static void greetUser() {
@@ -14,12 +14,17 @@ public class L5Function {
     }
 
     public static void rightHalfPattern() {
-        System.out.println("Right Half Pattern");
-        System.out.println("*");
-        System.out.println("* *");
-        System.out.println("* * *");
-        System.out.println("* * * *");
-        System.out.println("* * * * *");
+        int rows = 0;
+        while(rows < 5){
+            System.out.print("*");
+            int i = 0;
+            while(i < rows){
+                System.out.print(" *");
+                i++;
+            }
+            System.out.println();
+            rows++;
+        }
     }
 
     public static void reverseRightHalfPattern() {
