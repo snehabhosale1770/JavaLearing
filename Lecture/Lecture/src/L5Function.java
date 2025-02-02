@@ -15,7 +15,7 @@ public class L5Function {
 
     public static void rightHalfPattern() {
         int rows = 0;
-        while(rows < 5){
+        while(rows < 10){
             System.out.print("*");
             int i = 0;
             while(i < rows){
